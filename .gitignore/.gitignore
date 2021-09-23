@@ -1,0 +1,41 @@
+Algoritmo "clacular custo da viagem"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome : kevin teixeira)
+// Data atual  :
+Var
+// Seção de Declarações das variáveis
+          distancia, km_l, passageiros, capacidade_tanque, custo_litro, litros,  tanques, custo_total, custo_passageiro:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+   escreval("vamos fazer o calculo de custo sa viagem")
+   escreval
+   escreva("escreva a distancia: ")
+    leia(distancia)
+    escreva
+   escreva("escreva os km: ")
+    leia(km_l)
+    escreva
+   escreva("escreva a quantidade de passageiros")
+    leia(passageiros)
+    escreva
+
+    capacidade_tanque <- 50
+
+    custo_litro <- 3.5
+
+    litros <- distancia/km_l
+
+    tanques <- litros/capacidade_tanque
+
+    custo_total <- litros * custo_litro
+
+    custo_passageiro <- custo_total / passageiros
+
+  escreva("resultado tanque: ", tanques, " custo total: ", custo_total, " custo por passageiro: ", custo_passageiro)
+
+
+
+Fimalgoritmo
